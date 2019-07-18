@@ -1,7 +1,7 @@
 # Write your #display_rainbow method here
-def display_rainbow(colours)
-  puts colours[0].split.map(&:first) "=" colours[0]
+def display_rainbow(colors)
+  puts "R: #{colours[0]}, O: #{colours[1]}, Y: #{colours[2]}, G: #{colours[3]}, B: #{colours[4]}, I: #{colours[5]}, V: #{colours[6]}"
 end
 
-rain = ["Red", "Yellow", "Pink"]
+rain = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 display_rainbow(rain)
