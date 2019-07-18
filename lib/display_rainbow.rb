@@ -3,5 +3,5 @@ def display_rainbow(colours)
   puts colours[0].split.map(&:first)
 end
 
-colours = ["Red", "Yellow", "Pink"]
-display_rainbow(colours)
+rain = ["Red", "Yellow", "Pink"]
+display_rainbow(rain)
