@@ -3,6 +3,6 @@ def print_business_card(person)
   puts "Contact: #{person[3]}"
 end
 
-maddy = ["Maddy", 24, "Data Engineer", 07222999333]
+maddy = ["Maddy", 24, "Data Engineer", 07299333]
 
 print_business_card(maddy)
